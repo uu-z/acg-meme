@@ -1,0 +1,31 @@
+{
+  "name": "acg-meme",
+  "version": "1.0.0",
+  "description": "meme image generator from text",
+  "main": "./dist/lib/index.js",
+  "author": "vaiii",
+  "license": "MIT",
+  "scripts": {
+    "start": "babel-node ./lib/index.js",
+    "build": "gulp build"
+  },
+  "bin": "dist/bin/meme",
+  "dependencies": {
+    "canvas": "^1.6.2"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.18.0",
+    "babel-plugin-transform-flow-strip-types": "^6.21.0",
+    "babel-preset-env": "^1.1.4",
+    "eslint": "^3.12.2",
+    "flow-bin": "^0.37.0",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^6.1.2",
+    "gulp-chmod": "^2.0.0",
+    "gulp-named": "^1.0.0",
+    "jest": "^18.0.0"
+  },
+  "jest": {
+    "verbose": true
+  }
+}
