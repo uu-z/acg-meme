@@ -9,7 +9,6 @@
     "start": "babel-node ./lib/index.js",
     "build": "gulp build"
   },
-  "bin": "dist/bin/meme",
   "dependencies": {
     "canvas": "^1.6.2"
   },

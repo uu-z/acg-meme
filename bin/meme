@@ -1,9 +1,0 @@
-#!/usr/bin/env node
-import path from 'path'
-import spawn from 'cross-spawn'
-import meme from '../lib'
-
-let cmd = process.argv[2]
-
-meme(cmd)
-

@@ -1,4 +1,4 @@
-import {get, save, drawText } from '../lib'
+import {get, save, drawText } from 'acg-meme'
 import {isUrl} from '../lib/helpers'
 import path from 'path'
 import Canvas from 'canvas'
