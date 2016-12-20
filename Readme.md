@@ -25,5 +25,8 @@ save(ctx, ?path)
 
 ## Example
 
-![preview]('./example/basic/basic.jpeg')
-![preview]('./example/url/url.jpeg')
+
+![preview](./example/basic/basic.jpeg)
+
+
+![preview](./example/url/url.jpeg)
